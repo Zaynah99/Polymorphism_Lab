@@ -7,7 +7,6 @@ public class Pastry implements IFill {
 
     public String fill(String filling) {
         return this.name;
-
     }
 }
 

@@ -12,7 +12,5 @@ public class PastryTest {
         pastry = new Pastry("Croissant");
         String result = pastry.fill("Custard please!");
         assertThat(result).isEqualTo("Custard please!");
-
-
     }
 }

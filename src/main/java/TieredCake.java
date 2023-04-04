@@ -1,4 +1,4 @@
-public class TieredCake extends Cake{
+public class TieredCake extends Cake implements IFill {
 
     private int tiers;
 
@@ -15,9 +15,15 @@ public class TieredCake extends Cake{
         this.tiers = newTiers;
     }
 
-        public String addFilling() {
-        return "Jam";
+//        public String addFilling() { // works! but for MVP
+//        return "Jam";
+
+    public String fill(String filling) { // attempting to use interface
+        return this.name;
     }
+
+
 }
+
 
 

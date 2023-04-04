@@ -18,9 +18,15 @@ public class TieredCakeTest {
     assertThat(tieredCake.getTiers()).isEqualTo(3);
     }
 
+//    @Test
+//    public void canAddFilling(){
+//        assertThat(tieredCake.addFilling()).isEqualTo("Jam");
+//    }
+
     @Test
-    public void canAddFilling(){
-        assertThat(tieredCake.addFilling()).isEqualTo("Jam");
+    public void can() {
+        String result = tieredCake.fill("Jam please!");
+        assertThat(result).isEqualTo("Jam please!");
     }
 
 
