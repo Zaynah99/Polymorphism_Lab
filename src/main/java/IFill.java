@@ -1,5 +1,5 @@
-public interface IFill {
+public  interface IFill {
 
-    String filling (String type);
+    String fill (String filling);
 
 }

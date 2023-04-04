@@ -1,4 +1,4 @@
-public class TieredCake extends Cake {
+public class TieredCake extends Cake{
 
     private int tiers;
 
@@ -15,10 +15,9 @@ public class TieredCake extends Cake {
         this.tiers = newTiers;
     }
 
-    public String addFilling() {
+        public String addFilling() {
         return "Jam";
     }
-
 }
 
 

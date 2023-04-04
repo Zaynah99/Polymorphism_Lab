@@ -5,8 +5,8 @@ public class Pastry implements IFill {
         this.name = name;
     }
 
-    public String filling() {
-        return this.name + " I would like custard";
+    public String fill(String filling) {
+        return this.name;
 
     }
 }
